@@ -1,0 +1,127 @@
+/* Set a background image for the body */
+body {
+    background-image: url('nature-bg.jpg');
+    background-size: cover;
+  }
+  
+  /* Set the font for the entire site */
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Set the color for all links */
+  a {
+    color: #614e3f;
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background-color: #f5deb3;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    color: #614e3f;
+  }
+  
+  .nav-link {
+    color: #614e3f;
+    font-weight: bold;
+  }
+  
+  /* Style the cards on the product pages */
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #614e3f;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #f5deb3;
+    color: #614e3f;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  footer p:first-child {
+    margin-bottom: 5px;
+  }
+  
+  footer p:last-child {
+    margin-top: 5px;
+  }
+  
+  /* Style the forms on the Contact Us page */
+  form label {
+    font-weight: bold;
+    color: #614e3f;
+  }
+  
+  form input[type=text],
+  form input[type=email],
+  form textarea {
+    background-color: #f5deb3;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #614e3f;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form button[type=submit] {
+    background-color: #614e3f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  form button[type=submit]:hover {
+    background-color: #fff;
+    color: #614e3f;
+    border: 1px solid #614e3f;
+  }
+  
